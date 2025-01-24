@@ -145,7 +145,7 @@ for i in range(len(categorias)):
     ax.legend()
 
     # Guardamos.
-    plt.savefig(os.path.join(*out_dir, "reflectancia_entrenamiento_{i}.png"))
+    plt.savefig(os.path.join(*out_dir, f"reflectancia_entrenamiento_{i}.png"))
 
 # Ya tenemos las estructuras de datos que precisa el entrenador Random Forest.
 # Lo creamos con 50 árboles de decisión y lo entrenamos.
