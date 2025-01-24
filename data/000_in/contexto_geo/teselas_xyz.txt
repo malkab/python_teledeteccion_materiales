@@ -1,0 +1,3 @@
+https://tile.openstreetmap.org/{z}/{x}/{y}.png
+
+https://tms-pnoa-ma.idee.es/1.0.0/pnoa-ma/{z}/{x}/{-y}.jpeg
